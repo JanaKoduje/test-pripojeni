@@ -25,6 +25,7 @@ const Offline = () => {
 
   const handleOnline = () => {
     setIsOnline(true)
+    console.log('jste online')
   }
 
   if (isOnline) {
